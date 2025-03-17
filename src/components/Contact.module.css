@@ -1,0 +1,50 @@
+.item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 10px;
+  padding: 10px;
+  background-color: #f0f0f0;
+  border-radius: 5px;
+}
+
+.contactInfo {
+  display: flex;
+  flex-direction: column;
+}
+
+.iconWrapper {
+  display: flex;
+  align-items: center;
+  margin-bottom: 5px;
+}
+
+.icon {
+  margin-right: 8px;
+  color: #2081c1;
+}
+
+.name {
+  font-size: 18px;
+  font-weight: bold;
+  color: #333;
+}
+
+.number {
+  font-size: 16px;
+  color: #0b0a0a;
+}
+
+.deleteButton {
+  padding: 5px 10px;
+  background-color: #339de9;
+  color: white;
+  border: 2px solid black;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.deleteButton:hover {
+  background-color: #cc0000;
+}
